@@ -11,7 +11,7 @@ wait
 OS=$(lsb_release -si)
 VERSION=$(lsb_release -sr)
 
-if [ "$OS" != "Ubuntu" ] || [ "$VERSION" != "22.04" ]; then
+if [ "$OS" != "Ubuntu" ] || [ "$VERSION" != "24.04" ]; then
     echo -e "\033[31mThis script can only be run on Ubuntu 22.04\033[0m"
  
 fi
